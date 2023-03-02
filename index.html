@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>
-<body>
+    <title>Navigation Example</title>
 
-    <h1>Navigasi ke halaman lain</h1>
-<table cellpadding="20">
-    <tr>
-        <td><a href="pages/artikel.html"><b>Ke halaman Artikel</b></a></td>
-        <td><a href="pages/imageanchor.html"><b>Ke halaman Image and Anchor</b></a></td>
-        <td><a href="pages/list.html"><b>Ke halaman List</b></a></td>
-        <td><a href="pages/textformating.html"><b>Ke halaman Text Formating</b></a></td>
-    </tr>
-</table>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            background-color: tomato;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="pages\artikel.html">Artikel</a></li>
+                <li><a href="pages\imageanchor.html">Image dan Anchor</a></li>
+                <li><a href="pages\list.html">List</a></li>
+                <li><a href="pages\textformating.html">Text Formatting</a></li>
+                <li><a href="pages\notapembelian.html">Nota Pembelian</a></li>
+                <li><a href="pages\playlist.html">Playlist</a></li>
+                <li><a href="pages\artikelsemantic.html">Artikel Semantic</a></li>
+                <li><a href="pages\form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Selamat Datang di Halaman Index</h1>
+        <p>Silakan pilih salah satu halaman yang ingin Anda kunjungi dari menu di atas.</p>
+    </main>
+    <footer>
+        <p>Willyawan Maulana &copy; 2023</p>
+    </footer>
 </body>
+
 </html>
