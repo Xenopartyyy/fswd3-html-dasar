@@ -13,14 +13,19 @@ img{
 .card{
   margin: 20px;
   border-radius: 10px;
+
 }
 
 .blue{
   background-color: aqua ;
   display: inline-block;
+  border-style: solid;
+  border-color: rgb(131, 230, 147);
 }
 
 .orange{
   background-color: orange;
   display: inline-block;
+  border-style: solid;
+  border-color: gold;
 }
