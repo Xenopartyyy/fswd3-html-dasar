@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Navigation</title>
-
+    <title>Navigasi</title>
     <style>
         body {
             margin: 0px;
         }
-
         header {
             background-color: tomato;
-            justify-content: space-between;
             padding: 10px;
-            
         }
-
         nav ul {
             list-style-type: none;
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
         }
-
+        nav li {
+            margin-right: 30px;
+        }
         nav a {
             color: #fff;
             text-decoration: none;
             font-weight: bold;
             padding: 5px;
-            margin-left: 30px;
         }
-
         footer {
             background-color: #f2f2f2;
             padding: 10px;
@@ -37,7 +35,6 @@
         }
     </style>
 </head>
-
 <body>
     <header>
         <nav>
@@ -50,7 +47,9 @@
                 <li><a href="pages\playlist.html">Playlist</a></li>
                 <li><a href="pages\artikelsemantic.html">Artikel Semantic</a></li>
                 <li><a href="pages\form.html">Form</a></li>
-                <li><a href="pages\galeri.html">Galeri Ilmuwan Paling Berjasa</a></li>
+                <li><a href="pages\galeri.html">Galeri Ilmuwan</a></li>
+                <li><a href="pages\grid.html">Layout Grid</a></li>
+                <li><a href="pages\flexbox.html">Layout Flex</a></li>
             </ul>
         </nav>
     </header>
@@ -62,5 +61,4 @@
         <p>Willyawan Maulana &copy; 2023</p>
     </footer>
 </body>
-
 </html>
