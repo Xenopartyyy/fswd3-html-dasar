@@ -1,64 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Navigasi</title>
     <style>
-        body {
-            margin: 0px;
-        }
-        header {
-            background-color: tomato;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
-        nav li {
-            margin-right: 30px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 5px;
-        }
-        footer {
-            background-color: #f2f2f2;
-            padding: 10px;
-            text-align: center;
-        }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 250px;
+        background-color: rgb(4, 134, 134);
+        padding: 20px;
+        overflow-y: auto;
+        z-index: 100;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin-bottom: 10px;
+      }
+
+      nav a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.1s ease;
+        border-radius: 50px;
+      }
+
+      nav a:hover {
+        background-color: tomato;
+        border-radius: 50px;
+      }
+
+      main {
+        margin-left: 350px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="pages\artikel.html">Artikel</a></li>
-                <li><a href="pages\imageanchor.html">Image dan Anchor</a></li>
-                <li><a href="pages\list.html">List</a></li>
-                <li><a href="pages\textformating.html">Text Formatting</a></li>
-                <li><a href="pages\notapembelian.html">Nota Pembelian</a></li>
-                <li><a href="pages\playlist.html">Playlist</a></li>
-                <li><a href="pages\artikelsemantic.html">Artikel Semantic</a></li>
-                <li><a href="pages\form.html">Form</a></li>
-                <li><a href="pages\galeri.html">Galeri Ilmuwan</a></li>
-                <li><a href="pages\grid.html">Layout Grid</a></li>
-                <li><a href="pages\flexbox.html">Layout Flex</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="pages/artikel.html">Artikel</a></li>
+          <li><a href="pages/imageanchor.html">Image dan Anchor</a></li>
+          <li><a href="pages/list.html">List</a></li>
+          <li><a href="pages/textformating.html">Text Formatting</a></li>
+          <li><a href="pages/notapembelian.html">Nota Pembelian</a></li>
+          <li><a href="pages/playlist.html">Playlist</a></li>
+          <li><a href="pages/artikelsemantic.html">Artikel Semantic</a></li>
+          <li><a href="pages/form.html">Form</a></li>
+          <li><a href="pages/galeri.html">Galeri Ilmuwan</a></li>
+          <li><a href="pages/grid.html">Layout Grid</a></li>
+          <li><a href="pages/flexbox.html">Layout Flex</a></li>
+          <li><a href="pages/switchjankenpon.html">Switch Jankenpon</a></li>
+          <li><a href="pages/jscodestructure.html">Javascript Code Structure</a></li>
+          <li><a href="pages/jsvariables.html">Javascript Variable</a></li>
+          <li><a href="pages/jsdatatypes.html">Javascript Data Types</a></li>
+          <li><a href="pages/jstypeconversion.html">Javascript Type Conversion</a></li>
+          <li><a href="pages/jsoperator.html">Javascript Operators</a></li>
+          <li><a href="pages/jspopup.html">Javascript Popup</a></li>
+          <li><a href="pages/jsconditional.html">Javascript Conditional</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Selamat Datang di Halaman Index</h1>
-        <p>Silakan pilih salah satu halaman yang ingin Anda kunjungi dari menu di atas.</p>
+      <h1>Selamat Datang di Halaman Index dari tugas Willyawan Maulana</h1>
+      <p>
+        Silakan pilih salah satu halaman yang ingin dikunjungi dari menu di
+        samping.
+      </p>
     </main>
-    <footer>
-        <p>Willyawan Maulana &copy; 2023</p>
-    </footer>
-</body>
+
+
+  </body>
 </html>
